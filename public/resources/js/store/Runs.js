@@ -24,8 +24,8 @@ Ext.define('JWF.store.Runs', {
         model: 'JWF.model.Run',
         storeId: 'Runs',
         proxy: {
-            type: 'ajax',
-            url: 'runs'
+            type: 'jsonp',//'ajax',
+            url: '/runs'//'runs'
         }
     }
 });
