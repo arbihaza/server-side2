@@ -18,7 +18,7 @@ Ext.define('JWF.view.Form', {
 
     config: {
         padding: '15 15 15 15',
-        scrollable: false,
+        scrollable: null,
         items: [
             {
                 xtype: 'toolbar',
